@@ -1,0 +1,130 @@
+=== Agnar ===
+Contributors: alxmedia
+Requires at least: 5.0
+Tested up to: 5.3.2
+Version: 2.1.9
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
+
+== Description ==
+
+Agnar is a flexible theme for magazines and blogs. What makes it special is how well it scales all the way up to 1920px width and fill the entire screen beautifully, with a wall of visual posts. 
+
+== Installation ==
+
+1. In your admin panel, go to Appearance -> Themes and click the 'Add New' button.
+2. Type in Agnar in the search form and press the 'Enter' key on your keyboard.
+3. Click on the 'Activate' button to use your new theme right away.
+4. Navigate to Appearance > Customize in your admin panel and customize to taste.
+
+== Documentation ==
+
+http://alx.media/documentation/
+
+== Copyright ==
+
+Agnar WordPress Theme, Copyright 2018 AlxMedia
+Agnar is distributed under the terms of the GNU GPL
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+Agnar bundles the following third-party resources:
+
+Font Awesome, Copyright Dave Gandy
+License: SIL OFL 1.1 (Fonts); MIT (CSS)
+Source: http://fontawesome.com/
+
+Titillium font, Copyright Accademia di Belle Arti di Urbino
+License: SIL Open Font License, version 1.1.
+Source: http://www.campivisivi.net/titillium/
+
+Flexslider, Copyright WooThemes
+License: GPLv2 or later
+Source: http://flexslider.woothemes.com/
+
+FitVids, Copyright Chris Coyier
+License: WTFPL
+Source: http://fitvidsjs.com/
+
+Kirki, Copyright Aristeides Stathopoulos
+License: MIT
+Source: https://github.com/aristath/kirki
+
+Screenshot images
+License: CC0 1.0 Universal (CC0 1.0)
+Source: http://pixabay.com/
+
+== Changelog ==
+
+= 2.1.9 - 2020-02-26 =
+* Fixed comments form checkbox position
+* Updated to Font Awesome 5.12.1
+* Updated to Kirki 3.0.45
+
+= 2.1.8 - 2019-07-30 =
+* Updated to Font Awesome 5 Free (5.9.0)
+* Added theme accessibility with skip links
+* Added wp_body_open to header.php
+* Fixed WP-PageNavi styling issue
+* Fixed themeforms styling issue
+* Updated language files
+* Removed Responsive Lightbox as recommended plugin
+
+= 2.1.7 - 2019-01-22 =
+* Removed outdated documentation files from the theme
+* Added new documentation link to readme.txt
+
+= 2.1.6 - 2019-01-18 =
+* Moved options, meta boxes and custom widgets to alx-extensions plugin, as required
+* Updated to Kirki 3.0.35.3
+
+= 2.1.5 - 2018-09-22 =
+* Added missing style.css tags
+* Updated style.css edit warning
+* Updated .pot language file
+* Fixed gallery widget styling
+* Fixed translation issues
+* Fixed missing escaping issues
+* Fixed broken layout options
+* Added missing credits in readme
+
+= 2.1.4 - 2018-07-21 =
+* Added support for custom-logo
+* Added support for custom-header
+* Added support for custom-background
+* Updated meta dates to use wordpress settings
+* Changed function names from alx_ to agnar_
+* Fixed undefined index notices/errors for Alx Tabs and Alx Posts widgets
+* Fixed all theme sniffer errors
+* Removed custom.css option, already exist in core
+* Removed feedburner url option, plugin territory
+* Removed AlxVideo widget, plugin territory
+* Removed heading/subheading page fields, not allowed
+* Removed IE8 compatibility javascript and css
+* Numerous other required fixes for wordpress.org code standard
+
+= 2.1.3 - 2018-07-16 =
+* Fixed styling option for hover/current link color of mobile menu
+
+= 2.1.2 - 2018-07-16 =
+* Added blog list style option
+
+= 2.1.1 - 2018-07-16 =
+* Added on/off option for header search button
+* Added on/off option for header social links
+* Added on/off option for footer social links
+
+= 2.1.0 - 2018-06-26 =
+* Numerous required fixes for wordpress.org standards
+
+= 2.0.0 - 2018-01-12 =
+* Initial release
