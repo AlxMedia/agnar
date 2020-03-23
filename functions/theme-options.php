@@ -63,15 +63,6 @@ Kirki::add_section( 'styling', array(
 /*  Add Fields
 /* ------------------------------------ */
 
-// General: Responsive Layout
-Kirki::add_field( 'agnar_theme', array(
-	'type'			=> 'switch',
-	'settings'		=> 'responsive',
-	'label'			=> esc_html__( 'Responsive Layout', 'agnar' ),
-	'description'	=> esc_html__( 'Mobile and tablet optimizations (responsive.css)', 'agnar' ),
-	'section'		=> 'general',
-	'default'		=> 'on',
-) );
 // General: Mobile Sidebar
 Kirki::add_field( 'agnar_theme', array(
 	'type'			=> 'switch',
