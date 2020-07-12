@@ -67,6 +67,7 @@ Source: http://pixabay.com/
 
 = 2.2.1 - 2020-07-12 =
 * Updated to Kirki 3.1.4
+* Removed Social Count Plus as recommended plugin
 
 = 2.2.0 - 2020-03-25 =
 * Moved updater folder to functions folder
