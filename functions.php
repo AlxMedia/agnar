@@ -685,10 +685,6 @@ if ( ! function_exists( 'agnar_plugins' ) ) {
 					'slug' => 'wp-pagenavi',
 				),
 				array(
-					'name' => esc_html__( 'Social Count Plus', 'agnar' ),
-					'slug' => 'social-count-plus',
-				),
-				array(
 					'name' => esc_html__( 'BJ Lazy Load', 'agnar' ),
 					'slug' => 'bj-lazy-load',
 				)
