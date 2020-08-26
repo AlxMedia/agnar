@@ -64,6 +64,10 @@ Source: http://pixabay.com/
 
 == Changelog ==
 
+= 2.2.3 - 2020-08-25 =
+* Improved a11y
+* Added new menu
+
 = 2.2.2 - 2020-08-11 =
 * Updated to Kirki 3.1.5
 

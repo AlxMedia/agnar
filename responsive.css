@@ -54,8 +54,9 @@
 	
 	/* header */
 	.site-title { font-size: 32px; text-align: center; margin: 0 auto; float: none; }
-	.toggle-search { background: #fff; border-color: transparent; border-right-color: #eee; padding: 11px 12px; border-radius: 0; position: absolute; bottom: -49px; left: 0; top: auto; right: auto; }
-	.search-expand { top: auto; right: auto; left: 44px; bottom: -49px; width: 214px; }
+	.toggle-search { background: #fff; border-color: transparent; border-right-color: #eee; padding: 10px 12px; border-radius: 0; position: absolute; bottom: -52px; left: 0; top: auto; right: auto; }
+	.toggle-search.active { padding-top: 13px; padding-bottom: 13px; bottom: -52px; }
+	.search-expand { top: auto; right: auto; left: 50px; right: 70px; bottom: -50px; width: auto; border: 0; }
 	.search-expand-inner { padding: 5px; }
 	#header .container { position: static; }
 	#header .social-links { margin: 0; width: 100%; text-align: center; padding: 10px 0; border-top: 1px solid #f5f5f5; }

@@ -94,6 +94,19 @@ if ( ! function_exists( 'agnar_setup' ) ) {
 add_action( 'after_setup_theme', 'agnar_setup' );
 
 
+/*  Custom navigation
+/* ------------------------------------ */
+require_once 'functions/nav.php';
+$nav = new \AlxMedia\Nav();
+$nav->enqueue(
+	[
+		'script' => 'js/nav.js',
+		'inline' => false,
+	]
+);
+$nav->init();
+
+
 /*  Custom logo
 /* ------------------------------------ */
 if ( ! function_exists( 'agnar_custom_logo' ) ) {
