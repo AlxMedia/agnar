@@ -1227,12 +1227,12 @@ border-radius: 3px; }
 /* ------------------------------------ */
 .widget > h3 { position: relative; }
 .widget > h3 > span { display: inline-block; padding-bottom: 10px; border-bottom: 1px solid #00b2d7; position: relative; bottom: -1px; }
-.widget > h3:after { font-family: "Font Awesome 5 Free"; font-weight: 900; color: #00b2d7; font-size: 18px; font-weight: 400; text-align: center; float: right; }
-.widget_archive > h3:after { content: "\f114"; }
+.widget > h3:after { font-family: "Font Awesome 5 Free"; font-weight: 900; color: #00b2d7; font-size: 18px; text-align: center; float: right; }
+.widget_archive > h3:after { content: "\f187"; }
 .widget_categories > h3:after { content: "\f02e"; }
 .widget_links > h3:after { content: "\f08e"; }
 .widget_meta > h3:after { content: "\f138"; }
-.widget_recent_comments > h3:after { content: "\f0e6"; }
+.widget_recent_comments > h3:after { content: "\f086"; }
 .widget_recent_entries > h3:after { content: "\f017"; }
 .widget_calendar > h3:after { content: "\f271"; }
 .widget_rss > h3:after { content: "\f09e"; }
