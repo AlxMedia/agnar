@@ -96,8 +96,10 @@ add_action( 'after_setup_theme', 'agnar_setup' );
 
 /*  Custom navigation
 /* ------------------------------------ */
-add_action( 'wp', function() {
+if ( ! class_exists( '\Agnar\Nav' ) ) {
 	require_once 'functions/nav.php';
+}
+add_action( 'wp', function() {
 	$nav = new \Agnar\Nav();
 	$nav->enqueue(
 		[
