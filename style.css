@@ -724,7 +724,6 @@ border-radius: 3px; }
 #wrap-nav-header .nav-menu:not(.mobile) a:hover { color: #00b2d7; }
 #wrap-nav-header .nav-menu:not(.mobile) .menu ul { background: #fff; top: 100%; border-radius: 0; font-size: 14px; box-shadow: 0 2px 2px rgba(0,0,0,0.15); z-index: 3; }
 #wrap-nav-header .nav-menu:not(.mobile) .menu ul:after { border-bottom-color: transparent; }
-#wrap-nav-header .nav-menu:not(.mobile) .menu ul ul { border-radius: 4px; }
 #wrap-nav-header .nav-menu:not(.mobile) .menu ul ul:after { border-right-color: #fff; border-bottom-color: transparent; }
 #wrap-nav-header .nav-menu:not(.mobile) .menu ul span { border-bottom: 1px solid rgba(0,0,0,0.06); }
 #wrap-nav-header .nav-menu:not(.mobile) .menu ul li:last-child span { border-bottom: 0; }
