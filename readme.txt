@@ -69,6 +69,9 @@ Source: https://stocksnap.io
 
 == Changelog ==
 
+= 2.2.6 - 2021-05-26 =
+* Fixed premium theme updater version number issue
+
 = 2.2.5 - 2021-05-25 =
 * Fixed compatibility issue with custom nav and various security plugins
 * Updated language files
