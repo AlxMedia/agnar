@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Agnar\n"
-"POT-Creation-Date: 2021-05-25 14:16+0200\n"
+"POT-Creation-Date: 2021-07-23 18:30+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -62,99 +62,99 @@ msgstr ""
 msgid "Theme by"
 msgstr ""
 
-#: functions.php:86
+#: functions.php:89
 msgid "Mobile"
 msgstr ""
 
-#: functions.php:87
+#: functions.php:90
 msgid "Topbar"
 msgstr ""
 
-#: functions.php:88 functions/theme-options.php:34
+#: functions.php:91 functions/theme-options.php:34
 msgid "Header"
 msgstr ""
 
-#: functions.php:89 functions/theme-options.php:39
+#: functions.php:92 functions/theme-options.php:39
 msgid "Footer"
 msgstr ""
 
-#: functions.php:184
+#: functions.php:187
 msgid "Primary"
 msgstr ""
 
-#: functions.php:184
+#: functions.php:187
 msgid "Normal full width sidebar"
 msgstr ""
 
-#: functions.php:186 functions/theme-options.php:289
+#: functions.php:189 functions/theme-options.php:289
 msgid "Header Ads"
 msgstr ""
 
-#: functions.php:187 functions/theme-options.php:316
+#: functions.php:190 functions/theme-options.php:316
 msgid "Footer Ads"
 msgstr ""
 
-#: functions.php:187
+#: functions.php:190
 msgid "Footer ads area"
 msgstr ""
 
-#: functions.php:189
+#: functions.php:192
 msgid "Frontpage Top 1"
 msgstr ""
 
-#: functions.php:189 functions.php:190 functions.php:191 functions.php:192
+#: functions.php:192 functions.php:193 functions.php:194 functions.php:195
 msgid "Frontpage area"
 msgstr ""
 
-#: functions.php:190
+#: functions.php:193
 msgid "Frontpage Top 2"
 msgstr ""
 
-#: functions.php:191
+#: functions.php:194
 msgid "Frontpage Bottom 1"
 msgstr ""
 
-#: functions.php:192
+#: functions.php:195
 msgid "Frontpage Bottom 2"
 msgstr ""
 
-#: functions.php:194
+#: functions.php:197
 msgid "Footer 1"
 msgstr ""
 
-#: functions.php:194 functions.php:195 functions.php:196 functions.php:197
+#: functions.php:197 functions.php:198 functions.php:199 functions.php:200
 msgid "Widgetized footer"
 msgstr ""
 
-#: functions.php:195
+#: functions.php:198
 msgid "Footer 2"
 msgstr ""
 
-#: functions.php:196
+#: functions.php:199
 msgid "Footer 3"
 msgstr ""
 
-#: functions.php:197
+#: functions.php:200
 msgid "Footer 4"
 msgstr ""
 
-#: functions.php:689
+#: functions.php:692
 msgid "Alx Extensions"
 msgstr ""
 
-#: functions.php:693
+#: functions.php:696
 msgid "Meta Box"
 msgstr ""
 
-#: functions.php:697
+#: functions.php:700
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#: functions.php:701
+#: functions.php:704
 msgid "WP-PageNavi"
 msgstr ""
 
-#: functions.php:705
+#: functions.php:708
 msgid "BJ Lazy Load"
 msgstr ""
 
