@@ -10,6 +10,24 @@ Kirki::add_config( 'agnar', array(
 	'option_type'   => 'theme_mod',
 ) );
 
+/*  Add Links
+/* ------------------------------------ */
+Kirki::add_section( 'morelink', array(
+	'title'       => esc_html__( 'AlxMedia', 'agnar' ),
+	'type'        => 'link',
+	'button_text' => esc_html__( 'View More Themes', 'agnar' ),
+	'button_url'  => 'http://alx.media/themes/',
+	'priority'    => 13,
+) );
+Kirki::add_section( 'reviewlink', array(
+	'title'       => esc_html__( 'Like This Theme?', 'agnar' ),
+	'panel'       => 'options',
+	'type'        => 'link',
+	'button_text' => esc_html__( 'Write a Review', 'agnar' ),
+	'button_url'  => 'https://wordpress.org/support/theme/agnar/reviews/#new-post',
+	'priority'    => 1,
+) );
+
 /*  Add Panels
 /* ------------------------------------ */
 Kirki::add_panel( 'options', array(
@@ -683,7 +701,7 @@ Kirki::add_field( 'agnar_theme', array(
 	'label'			=> esc_html__( 'Website Max-width', 'agnar' ),
 	'description'	=> esc_html__( 'Max-width of the container', 'agnar' ),
 	'section'		=> 'styling',
-	'default'		=> '1920',
+	'default'		=> '1400',
 	'choices'     => array(
 		'min'	=> '1024',
 		'max'	=> '1920',

@@ -21,11 +21,11 @@
 		<?php if ( have_posts() ) : ?>
 				
 			<?php if ( get_theme_mod('blog-layout','blog-grid') == 'blog-grid' ) : ?>
-				<ul class="flex-contain group">
+				<ul class="grid-contain group">
 					<?php while ( have_posts() ): the_post(); ?>
 						<?php get_template_part('content'); ?>
 					<?php endwhile; ?>
-				</ul><!--/.flex-contain-->
+				</ul><!--/.grid-contain-->
 			<?php elseif ( get_theme_mod('blog-layout','blog-grid') == 'blog-list' ) : ?>
 				<ul class="flex-list group">
 					<?php while ( have_posts() ): the_post(); ?>

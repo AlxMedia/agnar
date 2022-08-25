@@ -1,14 +1,14 @@
 /*
 Theme Name: Agnar
 Theme URI: http://alx.media/themes/agnar/
-Version: 2.3.1
+Version: 2.3.2
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 6.0
-Description: <a href="http://alx.media/themes/agnar/">Agnar</a> is a flexible theme for magazines and blogs. What makes it special is how well it scales all the way up to 1920px width and fill the entire screen beautifully, with a wall of visual posts. 
+Description: <a href="http://alx.media/themes/agnar/">Agnar</a> is a flexible theme for magazines and blogs. It comes packed with plenty of options to make it easy for you to customize it as you want. Demo: http://demo.alx.media/x/?theme=Agnar
 Author: Alexander Agnarson
 Author URI: http://alx.media
-Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background
+Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background, news, entertainment, footer-widgets
 Text Domain: agnar
 
 	Copyright: (c) 2018 Alexander "Alx" Agnarson
@@ -244,6 +244,7 @@ input, textarea, button, select, label { font-family: inherit; }
 /*  base : entry
 /* ------------------------------------ */
 .entry { font-size: 17px; line-height: 1.6em; }
+.entry a { text-decoration: underline; }
 .entry p,
 .entry dd { margin-bottom: 1em; }
 .entry dt { color: #222; }
@@ -369,7 +370,7 @@ h1, h2, h3, h4, h5, h6 { color: #000; font-weight: 600; -ms-word-wrap: break-wor
 /* ------------------------------------ */
 #wrapper { background: #f5f5f5; min-width: 1024px; height: 100%; margin: 0 auto; }
 .container { position: relative; }
-.container-inner { margin: 0 auto; max-width: 1920px; }
+.container-inner { margin: 0 auto; max-width: 1400px; }
 .pad { padding: 30px; }
 
 /* boxed */
@@ -521,6 +522,7 @@ border-radius: 3px; }
 .toggle-search #svg-close { display: none; }
 .toggle-search.active #svg-search { display: none; }
 .toggle-search.active #svg-close { display: block; }
+.toggle-search:focus { box-shadow: inset 0 0 20px rgba(0,0,0,0.06); }
 
 
 /* ------------------------------------------------------------------------- *
@@ -623,6 +625,8 @@ border-radius: 3px; }
 .nav-menu.mobile.toggled > div > ul.menu ul.sub-menu { visibility: hidden; transition: all 0.3s ease; }
 .nav-menu.mobile.toggled > div > ul.menu,
 .nav-menu.mobile.toggled > div > ul.menu ul.sub-menu.active { visibility: visible; }
+.nav-menu.mobile button:focus,
+.menu-toggle:focus { background: rgba(0,0,0,0.04); }
 
 /* menu styling */
 .nav-menu a { color: #fff; }
@@ -926,6 +930,7 @@ border-radius: 0 0 3px 3px; }
 
 /*  post : grid
 /* ------------------------------------ */
+.grid-contain { display: grid; grid-template-columns: repeat(auto-fill,minmax(300px,1fr)); gap: 0; }
 .flex-contain { display: flex; flex: 1 1 auto; flex-wrap: wrap; }
 .flex-item { background: #fff; position: relative; border: 1px solid #ddd; flex: 1 1 240px; min-width: 240px; margin: 10px; transition: all .3s ease; }
 .flex-item:hover { box-shadow: 0 10px 10px rgba(0,0,0,0.1), 0 2px 2px rgba(0,0,0,0.1); border-color: #ccc; }
@@ -1725,6 +1730,6 @@ html[xmlns] .slides { display: block; }
 /* ------------------------------------------------------------------------- */
 /* Text meant only for screen readers. */
 .screen-reader-text{ border: 0; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute!important; width: 1px; word-wrap: normal!important; }
-.screen-reader-text:focus { background-color: #fff; border-radius: 3px; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); clip: auto!important; clip-path: none; color: #333; display: block; font-size: 14px; font-size: 0.875rem; font-weight: bold; height: auto; right: 5px; line-height: normal; padding: 15px 23px 14px; text-decoration: none; top: 5px; width: auto; z-index: 100000; }
+.screen-reader-text:focus { background-color: #fff; border-radius: 3px; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); clip: auto!important; clip-path: none; color: #333; display: block; font-size: 14px; font-size: 0.875rem; font-weight: bold; height: auto; left: auto; right: 5px; line-height: normal; padding: 15px 23px 14px; text-decoration: none; top: 5px; width: auto; z-index: 100000; }
 /* Do not show the outline on the skip link target. */
 #page[tabindex="-1"]:focus{ outline: 0; }

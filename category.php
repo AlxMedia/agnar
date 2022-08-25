@@ -77,11 +77,11 @@
 			 ?>
 					
 			<?php if ( get_theme_mod('blog-layout','blog-grid') == 'blog-grid' ) : ?>
-				<ul class="flex-contain group">
+				<ul class="grid-contain">
 					<?php while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
 						<?php get_template_part('content'); ?>
 					<?php endwhile; ?>
-				</ul><!--/.flex-contain-->
+				</ul><!--/.grid-contain-->
 			<?php elseif ( get_theme_mod('blog-layout','blog-grid') == 'blog-list' ) : ?>
 				<ul class="flex-list group">
 					<?php while( $custom_query->have_posts() ) : $custom_query->the_post(); ?>

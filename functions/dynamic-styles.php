@@ -93,7 +93,7 @@ if ( ! function_exists( 'agnar_dynamic_css' ) ) {
 			if ( get_theme_mod( 'font' ) == 'tahoma' ) { $styles .= 'body { font-family: Tahoma, sans-serif; }'."\n"; }
 			
 			// container width
-			if ( get_theme_mod('container-width','1920') != '1920' ) {			
+			if ( get_theme_mod('container-width','1400') != '1400' ) {			
 				if ( get_theme_mod( 'boxed' ) ) { 
 					$styles .= '.boxed #wrapper, .container-inner { max-width: '.esc_attr( get_theme_mod('container-width') ).'px; }'."\n";
 				}
