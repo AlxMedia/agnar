@@ -85,7 +85,7 @@ Sidebar images
 
 == Changelog ==
 
-= 2.3.2 - 2022-08-26 =
+= 2.3.2 - 2022-09-15 =
 * Changed theme from premium to free
 
 = 2.3.1 - 2022-05-30 =
