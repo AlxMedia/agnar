@@ -85,6 +85,9 @@ Sidebar images
 
 == Changelog ==
 
+= 2.3.3 - 2022-09-16 =
+* Fixed featured title escaping
+
 = 2.3.2 - 2022-09-15 =
 * Changed theme from premium to free
 

@@ -27,7 +27,7 @@ $featured = new WP_Query(
 		<?php endwhile; ?>
 		
 		<?php if ( ( get_theme_mod( 'featured-title' ) != '' ) ): ?>
-			<div class="featured-category-title"><span><?php echo get_theme_mod('featured-title'); ?></span></div>
+			<div class="featured-category-title"><span><?php echo esc_html( get_theme_mod('featured-title') ); ?></span></div>
 		<?php endif; ?>
 	</div>
 </div>
