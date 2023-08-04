@@ -85,6 +85,9 @@ Sidebar images
 
 == Changelog ==
 
+= 2.3.4 - 2023-08-04 =
+* Updated to Font Awesome 6.4.2
+
 = 2.3.3 - 2022-09-16 =
 * Fixed featured title escaping
 
