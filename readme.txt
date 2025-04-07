@@ -8,7 +8,7 @@ Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors,
 
 == Description ==
 
-Agnar is a flexible theme for magazines and blogs. It comes packed with plenty of options to make it easy for you to customize it as you want. Demo: http://demo.alx.media/x/?theme=Agnar
+Agnar is a flexible theme for magazines and blogs. It comes packed with plenty of options to make it easy for you to customize it as you want. Demo: https://demo.agnarson.com/?theme=Agnar
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Agnar is a flexible theme for magazines and blogs. It comes packed with plenty o
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
